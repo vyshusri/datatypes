@@ -15,6 +15,7 @@ public class datatypes {
     System.out.println("Cassical Dnacer:"+isdancer);
     System.out.println("Phone.No:"+phno);
    }
+   
 }
 
 
