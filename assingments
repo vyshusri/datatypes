@@ -1,0 +1,22 @@
+public class datatypes {
+   public static void main(String[] args){
+    String name="Sriram Vaishnavi";
+    String fathername="Krishna";
+    String mothername="Navaneetha";
+    int age=15;
+    double percentage=8.2;
+    boolean isdancer=true;
+    long phno=28622542425L;
+    System.out.println("Name:"+name);
+    System.out.println("Father Name:"+fathername);
+    System.out.println("Mother Name:"+mothername);
+    System.out.println("Age:"+age);
+    System.out.println("Percentage:"+percentage+"%");
+    System.out.println("Cassical Dnacer:"+isdancer);
+    System.out.println("Phone.No:"+phno);
+   }
+}
+
+
+
+    
