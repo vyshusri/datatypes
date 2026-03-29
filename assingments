@@ -1,5 +1,5 @@
- class datatypes {
-   publipublicc static void main(String[] args){
+public class datatypes {
+   public static void main(String[] args){
     String name="Sriram Vaishnavi";
     String fathername="Krishna";
     String mothername="Navaneetha";
