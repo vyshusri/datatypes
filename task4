@@ -1,18 +1,21 @@
- class datatypes {
+ publi class task4 {
+    static String name="Sriram Vaishnavi";
+    static char grade='B';
+    static byte marks=111;
+    static float height=5.5;
    publipublicc static void main(String[] args){
-    String name="Sriram Vaishnavi";
-    String fathername="Krishna";
-    String mothername="Navaneetha";
+    
     int age=15;
     double percentage=8.2;
     boolean isdancer=true;
     long phno=28622542425L;
     System.out.println("Name:"+name);
-    System.out.println("Father Name:"+fathername);
-    System.out.println("Mother Name:"+mothername);
     System.out.println("Age:"+age);
+    System.out.println("Marks:"+marks);
+    System.out.println("Height:"+height);
+    System.out.println("Grade:"+grade);
     System.out.println("Percentage:"+percentage+"%");
-    System.out.println("Cassical Dnacer:"+isdancer);
+    System.out.println("Cassical Dancer:"+isdancer);
     System.out.println("Phone.No:"+phno);
    }
    
