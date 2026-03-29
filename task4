@@ -1,9 +1,9 @@
- publi class task4 {
+ public class task4 {
     static String name="Sriram Vaishnavi";
     static char grade='B';
     static byte marks=111;
     static float height=5.5;
-   publipublicc static void main(String[] args){
+   public static void main(String[] args){
     
     int age=15;
     double percentage=8.2;
@@ -19,6 +19,7 @@
     System.out.println("Phone.No:"+phno);
    }
    
+
 }
 
 
