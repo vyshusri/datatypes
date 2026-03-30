@@ -1,0 +1,12 @@
+public class task5{
+    public static void main(String[] args){
+    System.out.println("Integer.MAX_VALUE");
+    System.out.println("Integer.MIN_VALUE");
+    }
+
+
+}//Byte Range -128 to 127
+//Short Range -32768 to 32767
+//Int Range 2147483647 to -2147483648
+//Long Range 9223372036854775807 to -9223372036854775808
+//Float Range 3.4028235E38 to
