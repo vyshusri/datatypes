@@ -66,6 +66,7 @@ public static void Pin(){
     FatherName();
     Pin();
     NewPin(101010);
+    Pin();
     State();
     NewState("Telangana");
     State();
