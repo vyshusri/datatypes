@@ -66,6 +66,8 @@ public static void Pin(){
     FatherName();
     NewPin(101010);
     NewState("Telangana");
+    Pin();
+    State();
     village();
     Mandal();
     District();
