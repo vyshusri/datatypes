@@ -54,7 +54,7 @@ public static void Pin(){
     }
             }
             public static void NewState(String State) {
-                
+                System.out.println("NewState:"+State);
             }
             public static void Adharno() {
                System.out.println("Adharno:"+Adharno); 
@@ -72,5 +72,5 @@ public static void Pin(){
     Adharno();
     
     }
-    
+
      }
