@@ -64,9 +64,10 @@ public static void Pin(){
         Name();
    NewName("Vaishnavi Sriram");
     FatherName();
-    NewPin(101010);
-    NewState("Telangana");
     Pin();
+    NewPin(101010);
+    State();
+    NewState("Telangana");
     State();
     village();
     Mandal();
