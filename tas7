@@ -1,0 +1,76 @@
+public class adhar{
+    static String Name="Sriram Vaishnavi";
+    static long Adharno=350555855351L;
+     static String FatherName="Sriram Krishna";
+     static String state="Andhra";
+     static  int Pin=501852;
+     static String village="Kalladi";
+     static String Mandal="Aloor";
+     static String District="Nizamabad";
+     static int HNo=1-1/1;
+    public static void Name(){
+        System.out.println("Full Name :" + Name);
+    }
+    public static void FatherName(){
+    System.out.println("Father Name: "+ FatherName);
+
+    }
+    public static void state(){
+    System.out.println("State: "+ state);
+
+    }
+
+    public static void NewState(){
+
+    System.out.println(" New State: "+state);
+    }
+    public static void village(){
+    System.out.println("Village: "+village);
+    }
+    public static void Mandal(){
+    System.out.println("Mandal: "+Mandal);
+    }
+    public static void District(){
+    System.out.println("District: "+District);
+    }
+public static void Pin(){
+    System.out.println("Pin: "+Pin);
+
+    }
+    
+   
+    public static void NewName(String Name){
+          System.out.println("New Name:"+Name);
+
+
+    }
+    public static void NewPin(int NewPin){
+        if(NewPin==Pin){
+          System.out.println("pin is correct");
+        }
+          else{
+    System.out.println("pin is incorrect");
+
+    }
+            }
+            public static void NewState(String State) {
+                
+            }
+            public static void Adharno() {
+               System.out.println("Adharno:"+Adharno); 
+            }
+    
+    public static void main(String[] args) {
+        Name();
+   NewName("Vaishnavi Sriram");
+    FatherName();
+    NewPin(101010);
+    NewState("Telangana");
+    village();
+    Mandal();
+    District();
+    Adharno();
+    
+    }
+    
+     }
