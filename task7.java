@@ -1,8 +1,8 @@
-public class adhar{
+public class task7{
     static String Name="Sriram Vaishnavi";
     static long Adharno=350555855351L;
-     static String FatherName="Sriram Krishna";
-     static String state="Andhra";
+     static String fatherName="Sriram Krishna";
+     static String State="Andhra";
      static  int Pin=501852;
      static String village="Kalladi";
      static String Mandal="Aloor";
@@ -11,19 +11,16 @@ public class adhar{
     public static void Name(){
         System.out.println("Full Name :" + Name);
     }
-    public static void FatherName(){
-    System.out.println("Father Name: "+ FatherName);
+    public static void fatherName(){
+    System.out.println("Father Name: "+ fatherName);
 
     }
-    public static void state(){
-    System.out.println("State: "+ state);
+    public static void State(){
+    System.out.println("State: "+ State);
 
     }
 
-    public static void NewState(){
-
-    System.out.println(" New State: "+state);
-    }
+    
     public static void village(){
     System.out.println("Village: "+village);
     }
@@ -33,7 +30,7 @@ public class adhar{
     public static void District(){
     System.out.println("District: "+District);
     }
-public static void Pin(){
+    public static void Pin(){
     System.out.println("Pin: "+Pin);
 
     }
@@ -44,8 +41,8 @@ public static void Pin(){
 
 
     }
-    public static void NewPin(int NewPin){
-        if(NewPin==Pin){
+    public static void checkPin(int checkPin){
+        if(checkPin==Pin){
           System.out.println("pin is correct");
         }
           else{
@@ -53,8 +50,9 @@ public static void Pin(){
 
     }
             }
-            public static void NewState(String State) {
-                System.out.println("NewState:"+State);
+            public static void NewState(String newState) {
+                State=newState;
+                System.out.println("state changed successfully");
             }
             public static void Adharno() {
                System.out.println("Adharno:"+Adharno); 
@@ -63,9 +61,9 @@ public static void Pin(){
     public static void main(String[] args) {
         Name();
    NewName("Vaishnavi Sriram");
-    FatherName();
+    fatherName();
     Pin();
-    NewPin(101010);
+    checkPin(501852);
     Pin();
     State();
     NewState("Telangana");
