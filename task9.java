@@ -1,5 +1,5 @@
 public class task9 {
-   static boolean vysh=true;
+   static boolean vysh=false;
    static boolean guddu=true;
     public static void main(String[] args) {
         if(vysh)
