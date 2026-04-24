@@ -6,7 +6,7 @@ public class doWhile {
             i++;
         }
         while(i<=10);
-    }
+    
     int j=10;
     do{
         System.out.println(j);
@@ -14,5 +14,5 @@ public class doWhile {
     }
     while(j>=1);
 }
-    
+}
 
