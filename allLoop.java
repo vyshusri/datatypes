@@ -13,7 +13,7 @@ public class allLoop {
         j++;    
         }
         while(j<0);
-        for(k=0;k<0;k++){
+        for(k=0;k>0;k++){
             System.out.println(k);
         }
         
