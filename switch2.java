@@ -1,5 +1,5 @@
 public class switch2 {
-    static char grade='A';
+    static char grade='C';
     public static void main(String[] args) {
         switch(grade){
         case 'A' :
