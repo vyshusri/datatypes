@@ -1,10 +1,9 @@
-public class logicCheck {
-    static String username="sriram";
-    static int password=1234;
+public class logicCheck { 
     public static void main(String[] args) {
-        if(username.equals("sriram")(password.euals(1234))||username.equals("sairam")){
-
+        string username="sairam";
+        int password=1234;
+System.out.println((username.equals("sairam")||password.equals("1234")?"sriram":"1234"));
         }
     }
     
-}
+
