@@ -1,28 +1,28 @@
 public class switch3  {
-    static int Calculator= "+";
-    public static void all(int a,int b){
-       int a=10;
-       int b=60;
+    static char Calculator= '+';
+    static int a=10;
+    static int b=60;
        
 public static void main(String[] args){
 
     switch(Calculator){
 case '+':
-System.out.println( add );   
+System.out.println( a+b );   
 break;
 case '-':
-System.out.println( difference );   
+System.out.println( a-b );   
 break;
 case '*':
-System.out.println( multiple);   
+System.out.println( a*b);   
 break;
 case '/':
-System.out.println( divide);   
+System.out.println( a/b);   
 break;
 default:
 System.out.println( "invalid" );   
 break;
 
     }
+}
 }
     
