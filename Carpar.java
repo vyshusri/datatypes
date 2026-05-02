@@ -14,6 +14,7 @@ public static void main(String[] args) {
     Carpar car2=new Carpar("shiva", "S", 2029, 1024885582);
 car1.cost();
 car1.all();
+
 }
 
     public void cost() {
