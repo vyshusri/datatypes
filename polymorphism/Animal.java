@@ -5,6 +5,6 @@ public class Animal {
         return null;
     }
     public void sound(){
-        System.out.println("sound:"+ Sound());
+        System.out.println("Animals makes sound:"+ Sound());
     }
 }
