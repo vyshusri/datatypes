@@ -4,7 +4,7 @@ public class Cat extends Animal {
 
     @Override
     String Sound(){
-    return "Cat Meow";
+    return "Cat MeowMeow";
     }
 }
     

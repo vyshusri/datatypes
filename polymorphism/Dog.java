@@ -4,7 +4,7 @@ public class Dog extends Animal {
     
 @Override
 String Sound(){
-    return "Dog Bow";
+    return "Dog BowBow";
 }
 }
 
