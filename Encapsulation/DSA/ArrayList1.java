@@ -1,5 +1,6 @@
 package Encapsulation.DSA;
 import java.util.ArrayList; 
+import java.util.Collections;
 
     public class ArrayList1 {
     public static void main(String[] args) {
