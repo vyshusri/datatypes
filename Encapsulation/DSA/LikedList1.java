@@ -36,6 +36,10 @@ public class LikedList1 {
         number.clear();
         System.out.println(number);
 
+        System.out.println(number.isEmpty());
+
+
+
 
 
     
