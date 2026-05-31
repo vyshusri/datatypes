@@ -8,6 +8,7 @@ public class Linkedlist2 {
         num.add(0,21.2);
         num.add(1,32.2);
         num.add(2,34.3);
+        num.addFirst(34.5);
 
         num.set(2,31.3 );
 
@@ -15,6 +16,7 @@ public class Linkedlist2 {
         System.out.println(num.get(0));
         System.out.println(num.get(1));
         System.out.println(num.get(2));
+        System.out.println("first:"+num.getFirst());
 
         System.out.println(num.size());
         System.out.println(num.contains(32.8));

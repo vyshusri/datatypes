@@ -1,8 +1,5 @@
 package Encapsulation.DSA;
 import java.util.LinkedList;
-
-import Encapsulation.student;
-
 import java.util.Collections;
 
 public class LikedList1 {
