@@ -18,7 +18,7 @@ public class Stack1 {
         System.out.println(student.search("Jairam"));//serach the elment in the element
         System.out.println(student.isEmpty());
         System.out.println(student.size());
-        System.out.println(num);
+        System.out.println(student);
 
 
 
