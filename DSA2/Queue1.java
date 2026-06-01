@@ -18,6 +18,7 @@ public class Queue1 {
         System.out.println("First element:"+num.peek());//it views the the first element
         System.out.println(num.isEmpty());
         System.out.println(num.size());
+        System.out.println(num);
 
 
     }

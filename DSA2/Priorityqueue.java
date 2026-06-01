@@ -10,14 +10,14 @@ public class Priorityqueue {
        // System.out.println(num.peek());
        // System.out.println(num.peek());
        System.out.println("remove:"+num.poll());
-       
+
         System.out.println(num.peek());
        System.out.println("empty:"+num.isEmpty());
         System.out.println("size:"+num.size());
-        
+        System.out.println(num);
         //System.out.println(num.poll());
         //System.out.println(num.peek());
-        System.out.println(num);
+        //System.out.println(num);
         //System.out.println(num.poll());
         //System.out.println(num);
         //System.out.println(num.poll());
