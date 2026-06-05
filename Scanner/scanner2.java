@@ -16,7 +16,7 @@ public class scanner2 {
     float sum=a+b;
     System.out.println("Sum:"+sum);
     }
-     
+
 
     }
     
