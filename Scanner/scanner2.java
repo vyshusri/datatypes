@@ -6,7 +6,7 @@ public class scanner2 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 
-    System.out.print("Enter 2 numbers:");
+    System.out.print("Enter two numbers:");
     float a=sc.nextFloat();
     float b=sc.nextFloat();
     add(a,b);
